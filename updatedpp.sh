@@ -65,7 +65,7 @@ cd .. || exit
 echo "Converting linefeeds from dos to unix"
 # dos2unix
 cd .. || exit
-cd MyBot/dependencies/include/dpp-10.0/dpp || exit
+cd MyBot/dependencies/include/dpp-10.1/dpp || exit
 find . -exec dos2unix {} \;
 cd ../../../../.. || exit
 find . -name '*.cmake' -exec dos2unix -q {} \;
